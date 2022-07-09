@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-board">
+        <img src="images/clouds.png" class="clouds">
+        <img src="images/pipe.png" class="pipe">
+        <img src="images/mario.gif" class="mario">
+
+        <div id="container-over">
+            <div id="game-over">
+                <h4>Game Over</h4>
+                <input type="button" id="restart" value="Restart">
+                <h6>Score: <span></span></h6>
+            </div>
+        </div>
+    </div>
+    <audio src="marioTheme.mp3" id="sound"></audio>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
