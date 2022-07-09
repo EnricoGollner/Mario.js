@@ -3,6 +3,7 @@ const pipe = document.querySelector('.pipe')
 let score = 0
 
 const soundPlayer = new Audio('marioTheme.mp3')
+soundPlayer.currentTime = 0
 soundPlayer.play()
 
 
