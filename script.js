@@ -2,7 +2,7 @@ const mario = document.querySelector('.mario')
 const pipe = document.querySelector('.pipe')
 let score = 0
 
-const soundPlayer = new Audio('marioTheme.mp3')
+const soundPlayer = new Audio('./media/marioTheme.mp3')
 soundPlayer.currentTime = 0
 soundPlayer.play()
 
@@ -27,7 +27,7 @@ const loop = setInterval( ()=>{
         mario.style.animation = 'none'
         mario.style.bottom = `${marioPosition}px` 
 
-        mario.src = 'images/game-over.png'
+        mario.src = './media/images/mario-dead.gif'
         mario.style.width = '75px'
         mario.style.marginLeft = '50px'
         clearInterval(loop)
